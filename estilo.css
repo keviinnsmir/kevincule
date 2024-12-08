@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50;
+    padding: 50;
+    background-image: url('bcn.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9e9e9;
+    color: #333;
+}
+.main-header {
+    text-align: center;
+    background-color: #A50044;
+    color: #fff;
+    padding: 30px 0;
+}
+.main-header h1 {
+    font-size: 2.5em;
+}
+.navbar {
+    background-color: #004D98;
+    padding: 15px 0;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    margin: 0 20px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.section {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.trofeos-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+.trofeos-list li {
+    margin: 5px 0;
+}
+.jugadores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.jugador img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+.jugador p {
+    margin-top: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #A50044;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #C51162;
+}
+.footer {
+    background-color: #004D98;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
